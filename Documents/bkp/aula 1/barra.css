@@ -1,0 +1,27 @@
+    body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #d63384;
+            margin: 0;
+            padding: 0;
+            color: #4b2e2e;
+        }
+
+        .sobre-nos {
+            max-width: 800px;
+            margin: 70px auto;
+            background-color: #ffe4ec;
+            padding: 170px;
+            border-radius: 80px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #d63384;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: justify;
+        }

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900display=swap');
+I
+:root{
+    --cor-texto: #00171f;
+    --cor-fundoi: #f6fff8;
+    --fonte: "poppins", sans-serif;
+    
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    background-color:deepskyblue; 
+    font-family: var(--fonte);
+
+}
+
+header {
+    height: 50px;
+    display:  flex; 
+    align-items: center; 
+    justify-content: end; 
+    gap: 55px;
+
+}
+
+p {
+    margin-right: 50px;
+}
+
+#destaque {
+    width: 1250px;
+    color: var(--cor-destaque);
+    font-weight: 600;
+}
+
+.enzo{
+    width: 1500000vw;
+}
+
+#dov{
+    display: flex;
+    justify-content:right;
+}
+main{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 90vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    height: 500px;
+    justify-content:center ;
+}
+h1{
+    font-family: var(--fonte);
+    font-weight: 100;
+}
+input{
+    height: 45px;
+    outline:none;
+    border: none;
+    background-color:white;
+    margin-bottom: 45px;
+    border-radius:45px;
+}
+
+button{
+    color:black;
+    outline:none;
+    border:none;
+    height:40px;
+    background-color:dodgerblue;
+    border-radius: 40px;
+    font-size:larger;
+
+}
+
+#link{
+    text-align: center;
+
+}
